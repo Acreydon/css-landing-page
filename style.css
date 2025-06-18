@@ -61,6 +61,10 @@ h2{
     background-color: #1F2937;
     color: #F9FAF8;
     margin-bottom: 30px;
+      margin-left: -50px;
+  margin-right: -50px;
+  padding: 50px; 
+
 }
 .Header{
     display: flex;
@@ -107,7 +111,7 @@ padding-bottom: 30px;
 }
 .bike-types{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
     align-items: center;
     gap:40px;
@@ -132,4 +136,40 @@ padding-bottom: 30px;
 .author{
     display: flex;
     margin-left: auto;
+}
+.Fourth-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 30px;
+    margin-left: -50px;
+  margin-right: -50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+.inside-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #3882F6;
+    padding:50px;
+    gap:10px;
+    color:white;
+}
+.bottom-button{
+    margin:0;
+    padding:10px;
+    border-color: white;
+    border-radius: 4px;
+    border: 1px solid;
+     transition: background-color 0.3s ease, transform 0.2s ease;
+}
+footer{
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
