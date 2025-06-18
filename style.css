@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #1F2937;
+}
+.logo {
+    margin:0;
+    padding :0;
+  width: 75px;
+  height: auto;
+  filter: brightness(0) saturate(100%) invert(1);
+}
+.main_image{
+    width: 400px;
+    height: auto;
+}
+.First-section{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
